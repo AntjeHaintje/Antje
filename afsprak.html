@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang=nl>
+<head>
+<meta charset="utf-8">
+<title>Tandartsafspraak</title>
+</head>
+<body>
+<h1>Tandartsafspraak</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dictum nulla. Etiam consequat quam at dignissim dapibus. Proin nec elit ullamcorper, scelerisque nisl vel, tincidunt nisi. Quisque iaculis velit ipsum, at sagittis nibh dignissim non. Suspendisse accumsan neque at justo sodales, vitae mollis metus tempor. Ut hendrerit ligula ac orci semper, at bibendum augue euismod. Suspendisse potenti. Quisque ultrices purus quis metus vehicula ullamcorper. Aenean pharetra, elit vitae ultricies imperdiet, mauris enim bibendum sem, id consectetur felis felis a erat. Cras cursus nulla a velit imperdiet ornare. Aliquam sed ex ornare, consequat eros sollicitudin, pellentesque neque. Curabitur consectetur et neque at placerat. Curabitur consectetur viverra metus sit amet viverra. Etiam in ultrices urna, in ultrices lectus. Duis ullamcorper nec tortor at blandit. Sed vehicula nisi eget fringilla consequat. Vivamus vehicula ultricies risus in tincidunt. Morbi rutrum tristique elit, vitae tincidunt ex vestibulum sit amet. Phasellus a consequat orci, in.
+</p>
+<img src="https://via.placeholder.com/300" alt="" title="Team">
+<img src="https://via.placeholder.com/300" alt="" title="Doctor">
+<img src="https://via.placeholder.com/300" alt="" title="Tandenartsstoel">
+<form action="https://formspree.io/f/xbjbjqeq" method="POST">
+<fieldset>
+<legend>Persoonlijke gegevens</legend>
+<label for="contactgegevenspatient">Contactgegevens patient</label><br>
+<input id="naam" type="text" name:"naam" placeholder="Naam"><br>
+<input id="straat" type="text" name:"straat" placeholder="straat"><br>
+<input id="huisnummer" type="number" name="huisnummer" placeholder="huisnummer"><br>
+<input id="postcode" type="text" name="postcode" placeholder="postcode"><br>
+<input id="woonplaats" type="text" name="woonplaats" placeholder="woonplaats"><br>
+<input id="telefoon" type="tel" name="telefoonnummer" placeholder="telefoonnummer">
+</fieldset>
+<br><br>
+<fieldset>
+<legend>Beschrijving van de klachten</legend>
+<label for="selectievakjes">Selectievaktjes</label>
+<br>
+<input type="checkbox" name="klachten" value="ja" checked>1<br>
+<input type="checkbox" name="klachten" value="ja" checked>2<br>
+<input type="checkbox" name="klachten" value="ja" checked>3<br>
+<input type="checkbox" name="klachten" value="ja" checked>4<br>
+<input type="checkbox" name="klachten" value="ja" checked>5<br>
+<input type="file" name="Fotobestand"><br>
+</fieldset>
+<fieldset>
+<legend>Toelichting van de klachten</legend>
+<textarea name="Klachten" maxlength="1500" placeholder="Klachten (max 1500 tekens)"></textarea>
+<br><br>
+<label for="datumkiezer"><strong>Datumkiezer</strong></label>
+<br>
+<input type="date" max="2023-12-31">
+</fieldset>
+<input type="submit" value="Verzend">
+</form>
+</body>
+</html>
